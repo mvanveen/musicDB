@@ -1,0 +1,30 @@
+# MusicDB Notes
+# ==============================================================================
+# Michael Van Veen
+# 03/08/10
+# ==============================================================================
+# Notes about the musicDB project
+# ==============================================================================
+
+Files:
+- encounter.py	Determines whether or not a file has been seen by the collection
+- musicObj.py		Model for a song entity
+- 
+
+SQLAlchemy is probably the best way to go in terms of implementing a flexible SQL backend.  SQLite will probably be used exclusively, but platform independence is always a good idea.
+
+interesting metadata:
+- Quality
+-- bitrate
+-- file type
+- artist
+- song title
+- album
+- disc #
+- genre
+- time length
+
+- date added
+- last played date
+- file type
+- filename
